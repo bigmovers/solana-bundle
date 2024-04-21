@@ -23,7 +23,9 @@ Has prompt features as in [prompts.png](https://github.com/bigmovers/solana-bund
   
 
 ## Overview
-This guide outlines the process for managing market creation and transactions using Solana's bundler. It is crucial to maintain minimal SOL balances in deployer wallets due to the spammy nature of market creation. Below are detailed instructions for setting up your environment and executing scripts in a sequential manner.
+This guide outlines the process for managing market creation and transactions using Solana Bundler.
+
+Below are detailed instructions for setting up your environment and executing prompts in a sequential manner.
 
 ### Initial Setup
 
@@ -37,9 +39,9 @@ This guide outlines the process for managing market creation and transactions us
       - It includes two keypairs:
         1. One for handling SOL distribution fees.
         2. Another for creating the pool.
+      - These keypairs can be the same if desired.
     - Modify RPC URL with one that supports JITO(e.g. Helius)
 
-       These keypairs can be the same if desired.
 3. **Run script**
    ```bash
    npx ts-node main.ts
@@ -52,10 +54,10 @@ Execute these steps in sequential order. After executing each step, verify the t
 Run this step as needed, not necessarily for every launch. Ensure the existent keypairs hold no SOL before proceeding because this will override them with new keypairs.
 
 ### B) Premarket
-Execute steps 2 through 6 in order. If a bundle does not land, re-execute the step with a higher tip.
+Execute steps 2 through 6 in order. If a bundle does not land, re-execute the step with a higher tip. Step 1 is optional because you can create a market through other methods as well.
 
 ### C) Create Pool
-Repeatedly invoke the pool creation function if it fails to land initially. Increasing the tip or repeated attempts are recommended.
+Repeatedly invoke the pool creation & bundling function. Increasing the tip and repeated attempts are recommended due to Solana congestion at peak times.
 
 ### D) Sell Features
 After the pool is live, proceed to either:
@@ -63,12 +65,12 @@ After the pool is live, proceed to either:
   - Gradually sell portions of the token supply on demand. This process involves transferring a percentage of each keypair's token balance to the fee payers and selling it all in one bundle.
 
 ### E) LP Removal
-This step removes the liquidity pool without burning the liquidity provider tokens.
+This step removes liquidity from the market(if LP tokens are not burned)
 
 ## Notes
 
-- Ensure you maintain a minimal SOL balance in your deployer wallets.
-- Monitor each transaction bundle to confirm landing using the suggested link to the explorer.
+- Ensure you maintain a minimal SOL balance in your fee wallet so you can cover all the network fees.
+- Monitor each transaction bundle to confirm landing using the suggested link to the explorer before proceeding to the next step.
 - Consider adjusting the tip to ensure transactions land promptly.
 
 ### Main Menu
