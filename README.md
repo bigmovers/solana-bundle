@@ -13,7 +13,7 @@ Has prompt features as in [prompts.png](https://github.com/bigmovers/solana-bund
 - **Comprehensive Trading Strategies**: From simple sell orders to sophisticated strategies involving a percentage of the supply.
 - **Liquidity Management**: Options to add and remove liquidity effectively.
 - **Guaranteed First Buys**: First 27 buys of the coin will always be yours and completely undetected using different keypairs and fee payer.
-- **Comprehensive Documentation**: Even if you have no code experience, you will still be able to deploy and launch using the easy prompts and the documentation attached.
+- **Comprehensive Documentation**: Even if you have no code experience, you will still be able to deploy and snipe using the easy prompts and the documentation attached.
   
 ## User Interface
 
