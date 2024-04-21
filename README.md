@@ -37,6 +37,7 @@ This guide outlines the process for managing market creation and transactions us
       - It includes two keypairs:
         1. One for handling SOL distribution fees.
         2. Another for creating the pool.
+    - Modify RPC URL with one that supports JITO(e.g. Helius)
 
        These keypairs can be the same if desired.
 3. **Run script**
@@ -48,7 +49,7 @@ This guide outlines the process for managing market creation and transactions us
 Execute these steps in sequential order. After executing each step, verify the transaction bundle has landed by checking the first included transaction on [Jito Explorer](https://explorer.jito.wtf/).
 
 ### A) Create Keypairs
-Run this step as needed, not necessarily for every launch. Ensure the keypairs hold no SOL before proceeding.
+Run this step as needed, not necessarily for every launch. Ensure the existent keypairs hold no SOL before proceeding because this will override them with new keypairs.
 
 ### B) Premarket
 Execute steps 2 through 6 in order. If a bundle does not land, re-execute the step with a higher tip.
