@@ -21,10 +21,54 @@ Has prompt features as in [prompts.png](https://github.com/bigmovers/solana-bund
 - **Guaranteed First Buys**: First 27 buys of the coin will always be yours and completely undetected using different keypairs and fee payer.
 - **Comprehensive Documentation**: Even if you have no code experience, you will still be able to deploy and snipe using the easy prompts and the documentation attached.
   
-## User Interface
 
-More information will be provided on purchase.
-The bot is controlled via a command-line interface (CLI) with the following options:
+## Overview
+This guide outlines the process for managing market creation and transactions using Solana's bundler. It is crucial to maintain minimal SOL balances in deployer wallets due to the spammy nature of market creation. Below are detailed instructions for setting up your environment and executing scripts in a sequential manner.
+
+### Initial Setup
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+
+2. **Configuration**
+    - Place your Blockengine keypair in `blockengine.json`.
+    - Modify `config.ts`:
+      - It includes two keypairs:
+        1. One for handling SOL distribution fees.
+        2. Another for creating the pool.
+
+       These keypairs can be the same if desired.
+3. **Run script**
+   ```bash
+   npx ts-node main.ts
+
+## Script Functions
+
+Execute these steps in sequential order. After executing each step, verify the transaction bundle has landed by checking the first included transaction on [Jito Explorer](https://explorer.jito.wtf/).
+
+### A) Create Keypairs
+Run this step as needed, not necessarily for every launch. Ensure the keypairs hold no SOL before proceeding.
+
+### B) Premarket
+Execute steps 2 through 6 in order. If a bundle does not land, re-execute the step with a higher tip.
+
+### C) Create Pool
+Repeatedly invoke the pool creation function if it fails to land initially. Increasing the tip or repeated attempts are recommended.
+
+### D) Sell Features
+After the pool is live, proceed to either:
+  - Sell all keypairs at once and reclaim WSOL in the subsequent step.
+  - Gradually sell portions of the token supply on demand. This process involves transferring a percentage of each keypair's token balance to the fee payers and selling it all in one bundle.
+
+### E) LP Removal
+This step removes the liquidity pool without burning the liquidity provider tokens.
+
+## Notes
+
+- Ensure you maintain a minimal SOL balance in your deployer wallets.
+- Monitor each transaction bundle to confirm landing using the suggested link to the explorer.
+- Consider adjusting the tip to ensure transactions land promptly.
 
 ### Main Menu
 
