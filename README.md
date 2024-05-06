@@ -3,7 +3,14 @@ Fastest script for solana to deploy &amp; snipe from 27 different wallets in ms 
 Has prompt features as in [prompts.png](https://github.com/bigmovers/solana-bundle/blob/main/prompts.png?raw=true)
 
 
-**TELEGRAM** for contact & **POC**(Proof of Concept): [@benoriz0](https://t.me/benoriz0)
+**TELEGRAM** for contact & **POC**(Proof of Concept) & **VOUCHES**: [@benoriz0](https://t.me/benoriz0)
+
+Price of tool is 15 SOL.
+
+Support in running the tool is included in the price.
+
+Watch out for other scammers on GitHub - they either sell my outdated program which has been closed or simply selling blank files.
+
 
 **Other tools**
 - Volume Maker
