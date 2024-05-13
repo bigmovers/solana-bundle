@@ -14,7 +14,9 @@ Watch out for other scammers on GitHub - they either sell my outdated program wh
 
 **Other tools**
 - Volume Maker
-- Non-JITO Bundler
+- Holders/Buyers Maker
+- Non-JITO Bundler (3 buys)
+- Pump.Fun Bundler(25 buys)
 - LP Manager
 - Telegram Cloner
 
