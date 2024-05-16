@@ -3,6 +3,12 @@ Fastest script for solana to deploy &amp; snipe from 27 different wallets in ms 
 Has prompt features as in [prompts.png](https://github.com/bigmovers/solana-bundle/blob/main/prompts.png?raw=true)
 
 
+https://github.com/bigmovers/solana-bundle/assets/165174061/03ae090b-cfe6-43e9-a58a-1aa841240ced
+
+
+
+
+
 **TELEGRAM** for contact & **POC**(Proof of Concept) & **VOUCHES**: [@benoriz0](https://t.me/benoriz0)
 
 Price of tool is 15 SOL.
@@ -19,6 +25,8 @@ Watch out for other scammers on GitHub - they either sell my outdated program wh
 - Pump.Fun Bundler(25 buys)
 - LP Manager
 - Telegram Cloner
+
+  [@benoriz0](https://t.me/benoriz0)
 
 ## Features
 
