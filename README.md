@@ -3,8 +3,9 @@ Fastest script for solana to deploy &amp; snipe from 27 different wallets in ms 
 Has prompt features as in [prompts.png](https://github.com/bigmovers/solana-bundle/blob/main/prompts.png?raw=true)
 
 
-https://github.com/bigmovers/solana-bundle/assets/165174061/03ae090b-cfe6-43e9-a58a-1aa841240ced
 
+
+https://github.com/bigmovers/solana-bundle/assets/165174061/be2b0a09-20ce-4923-84d4-4c28782cc788
 
 
 
