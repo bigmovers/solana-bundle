@@ -23,6 +23,7 @@ Watch out for other scammers on GitHub - they either sell my outdated program wh
 - [Volume Maker](https://github.com/bigmovers/solana-volume-bot)
 - [Pump.Fun Bundler(25 buys)](https://github.com/bigmovers/pumpfun-bundler)
 - [Buyers/Holders Maker](https://github.com/bigmovers/solana-maker)
+- [Sniper for New Pairs with Filters](https://github.com/bigmovers/solana-sniper-bot)
 - Non-JITO Bundler (3 buys)
 - LP Manager
 - Telegram Cloner
