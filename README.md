@@ -10,7 +10,11 @@ https://github.com/bigmovers/solana-bundle/assets/165174061/be2b0a09-20ce-4923-8
 
 
 
-**TELEGRAM** for contact & **POC**(Proof of Concept) & **VOUCHES**: [@benoriz0](https://t.me/benoriz0)
+**TELEGRAM** for contact & **POC**(Proof of Concept) & **VOUCHES**:  
+
+[benorizz0](https://t.me/benorizz0) **(ACTIVE)**
+
+[@benoriz0](https://t.me/benoriz0) (SUSPENDED TEMPORARY)
 
 Price of tool is 15 SOL.
 
