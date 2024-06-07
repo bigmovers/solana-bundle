@@ -32,7 +32,7 @@ Watch out for other scammers on GitHub - they either sell my outdated program wh
 - LP Manager
 - Telegram Cloner
 
-  [@benoriz0](https://t.me/benoriz0)
+  [@benorizz0](https://t.me/benorizz0)
 
 ## Features
 
