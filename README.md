@@ -14,7 +14,7 @@ https://github.com/bigmovers/solana-bundle/assets/165174061/be2b0a09-20ce-4923-8
 
 [benorizz0](https://t.me/benorizz0) **(ACTIVE)**
 
-~~[@benoriz0](https://t.me/benoriz0)~~ (SUSPENDED)
+~~@benoriz0~~ (SUSPENDED)
 
 Price of tool is 15 SOL.
 
